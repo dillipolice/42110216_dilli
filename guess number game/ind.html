@@ -49,11 +49,11 @@
             isGameActive = false; 
         } else if (userGuess < randomNumber) {
             feedback.textContent = 'Too low! Try again.';
-            feedback.style.color = 'orange';
+            feedback.style.color = 'red';
             chancesDisplay.textContent = `You have ${remainingChances} chances left.`;
         } else {
             feedback.textContent = 'Too high! Try again.';
-            feedback.style.color = 'orange';
+            feedback.style.color = 'red';
             chancesDisplay.textContent = `You have ${remainingChances} chances left.`;
         }
     }
