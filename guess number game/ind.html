@@ -61,7 +61,7 @@
     function resetGame() {
         randomNumber = Math.floor(Math.random() * 100) + 1;
         attempts = 0;
-        isGameActive = true; // Reset game state
+        isGameActive = true;
         document.getElementById('feedback').textContent = '';
         document.getElementById('chances').textContent = `You have ${maxChances} chances.`;
         document.getElementById('guess-input').value = '';
